@@ -67,3 +67,37 @@ footer {
     vertical-align: middle;
     margin-right: 8px;
 }
+form#purchase-form  {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form#purchase-form label {
+    display: block;
+    margin-top: 1em;
+}
+
+form#purchase-form input {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form#purchase-form button {
+    display: block;
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form#purchase-form button:hover {
+    background-color: #0056b3;
+}
