@@ -56,3 +56,14 @@ footer {
     width: 100%;
     bottom: 0;
 }
+.profile-link {
+    float: right;
+    margin-top: -2.5em;
+}
+
+.profile-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
