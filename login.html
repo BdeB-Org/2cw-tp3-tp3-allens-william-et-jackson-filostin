@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sport Shop</title>
+    <title>Connexion</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
+    <header>
         <h1>Sport Shop</h1>
         <nav>
             <ul>
@@ -15,22 +15,29 @@
                 <li><a href="basketball.html">Basketball</a></li>
                 <li><a href="football.html">Football Américain</a></li>
                 <li><a href="achats.html">Achats</a></li>
-                <li><a href="login.html" class="profile-link">
+				<li><a href="login.html" class="profile-link">
                     <img src="profile-icon.png" alt="Profile" class="profile-icon"> Profil
                 </a></li>
             </ul>
         </nav>
     </header>
-     <main>
-        <section id="best-selling">
-            <h2>Produits les plus vendus</h2>
-            <div id="products-container"></div>
+    <main>
+        <section id="login">
+            <h2>Connexion</h2>
+            <form id="login-form">
+                <label for="username">Nom d'utilisateur:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Se connecter</button>
+            </form>
+            <p>Pas encore inscrit ? <a href="register.html">S'inscrire</a></p>
         </section>
-    </main>
-    <footer>
+    </main><footer>
         <p>&copy; 2024 Sport Shop</p>
     </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
-        
