@@ -1,1 +1,177 @@
+<<<<<<< HEAD
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+	
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 1em;
+}
+#products-container, #basketball-products-container, #football-products-container, #achats-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 1em;
+    padding: 1em;
+    width: calc(33% - 2em);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    
+    width: 100%;
+    bottom: 0;
+}
+.profile-link {
+    float: right;
+    margin-top: -2.5em;
+}
+
+.profile-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+form#purchase-form  {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
+
+form#purchase-form label {
+    display: block;
+    margin-top: 1em;
+}
+
+form#purchase-form input {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form#purchase-form button {
+    display: block;
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form#purchase-form button:hover {
+    background-color: #0056b3;
+}
+form#register-form  {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form#register-form label {
+    display: block;
+    margin-top: 1em;
+}
+
+form#register-form input {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form#register-form button {
+    display: block;
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form#register-form button:hover {
+    background-color: #0056b3;
+}
+form#login-form  {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form#login-form label {
+    display: block;
+    margin-top: 1em;
+}
+
+form#login-form input {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form#login-form button {
+    display: block;
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form#login-form button:hover {
+    background-color: #0056b3;
+}
+
+
+>>>>>>> Jackson
 
